@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  /* flex-direction: row-reverse; */
+  /*background-color: #147efb;*/
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 33px;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+main {
+  font-family: "Mulish";
+  color: black;
+  text-decoration: none;
+}
+
+.header-main {
+  width: 800px;
+  align-items: center;
+  display: flex;
+  /*gap: 10rem;*/
+  justify-content: center;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 50px;
+}
+
+.header-main-description {
+  margin: 40px 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 20px;
+}
+
+.main-header-span {
+  text-align: left;
+  display: block;
+}
+
+.programming-lang {
+  text-align: center;
+  font-size: 55px;
+  cursor: auto;
+}
+
+p {
+  line-height: 25px;
+}
+
+.fa-linkedin {
+  cursor: pointer;
+  color: black;
+  /*display: flex;*/
+  font-size: 30px;
+  /*gap: 1.3rem;*/
+  /*margin: 2.5rem 0;*/
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.fa-linkedin {
+  transition: all 0.2s;
+  &:hover {
+    color: #147efb;
+  }
+}
+
+.fa-github {
+  cursor: pointer;
+  color: black;
+  /*display: flex;*/
+  font-size: 30px;
+  /*gap: 1.3rem;*/
+  /*margin: 2.5rem 0;*/
+  text-decoration: none;
+}
+
+.fa-github {
+  transition: all 0.2s;
+  &:hover {
+    color: #147efb;
+  }
+}
+
+.description-section {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navigation-bar {
+  list-style-type: none;
+  margin-top: 1%;
+  margin-right: 10%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.Header-title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  display: inline;
+  float: left;
+  text-align: left;
+  padding: 8px;
+  margin-left: 10%;
+}
+
+.nav-li {
+  display: inline;
+  float: right;
+  text-align: left;
+  padding: 8px;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  padding: 8px;
+  background-color: #ffffff;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-about {
+  text-decoration: none;
+  text-align: center;
+}
